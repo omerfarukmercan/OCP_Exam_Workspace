@@ -14,7 +14,6 @@ public class LocaleEx {
 
         System.out.println(new Locale("fr"));
         System.out.println(new Locale("hi", "IN"));
-        Locale.of("fr");
 
         Locale l1 = new Locale.Builder()
                 .setLanguage("en")
