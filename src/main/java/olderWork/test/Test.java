@@ -19,5 +19,10 @@ public class Test {
         List<Pre> preList = outputList.stream().map(Output::getChannel).map(Pre::new).toList();
         System.out.println(preList);
 
+
+        int pig = 4;
+        pig = pig++;
+        System.out.println(pig);
+
     }
 }
