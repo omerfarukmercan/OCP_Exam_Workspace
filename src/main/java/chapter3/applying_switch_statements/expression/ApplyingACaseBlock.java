@@ -24,6 +24,7 @@ public class ApplyingACaseBlock {
         };
         System.out.println(name);
         // yield statements are not optional if the switch statement returns a value.
+        //switch içerisinde if varsa else olduğundan emin olmaliyiz
     }
 
 }
